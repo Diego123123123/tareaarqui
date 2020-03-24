@@ -17,6 +17,12 @@ class TankAdapter implements Weapon {
     }
 
     public void fire() {
+        Sensor sensor = new Sensor();
+        HorizontalPointingSystem horizontalPointingSystem = new HorizontalPointingSystem();
+        VerticalPointingSystem verticalPointingSystem = new VerticalPointingSystem();
+        sensor.checkIfThereAreEnemies();
+        horizontalPointingSystem.point();
+        verticalPointingSystem.point();
         tank.fireMissile();
     }
     

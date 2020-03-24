@@ -7,11 +7,10 @@ package facadeandadapter;
 
 /**
  *
- * @author  Diego Mejia, Marcelo Hidalgo
+ * @author Diego
  */
-class Tank {
-    
-    public void fireMissile() {
-        System.out.println("TANK: DISPARANDO EL MISIL");
+public class Sensor {
+    public void checkIfThereAreEnemies(){
+        System.out.println("SENSOR: REVISANDO QUE HAY ENEMIGOS CERCA");
     }
 }

@@ -7,11 +7,11 @@ package facadeandadapter;
 
 /**
  *
- * @author  Diego Mejia, Marcelo Hidalgo
+ * @author Diego
  */
-class Tank {
-    
-    public void fireMissile() {
-        System.out.println("TANK: DISPARANDO EL MISIL");
+public class VerticalPointingSystem {
+
+    public void point() {
+        System.out.println("VERTICAL POINTING SYSTEM: APUNTANDO VERTICALMENTE");
     }
 }
